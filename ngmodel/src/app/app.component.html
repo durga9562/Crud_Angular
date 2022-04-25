@@ -1,0 +1,5 @@
+<label for="na">:</label>
+<input type="text" [(ngModel)]="n" id="na"/>
+<label for="name">:</label>
+<input type="text" [value]="n" id="name" (input)="n=$event.target.value"/>
+{{n}}

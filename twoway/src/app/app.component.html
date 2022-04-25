@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="form-group"> 
+<label for="fn">enter the first number</label>
+<input type="number" class="form-control" id="fn" #ref1/>
+
+  </div>
+  <div class="form-group">
+<label for="sn">Enter the second number</label>
+<input type="number" class="form-control" id="sn" #ref2/>
+  </div>
+  <button class="btn btn-danger"(click)="addNumbers(ref1.value, ref2.value)" >Addition</button>
+  <button class="btn btn-danger" (click)="subNumbers(ref1.value, ref2.value)">Sunstraction</button>
+  <button class="btn btn-danger" (click)="mulNumbers(ref1.value, ref2.value)">Multiplication</button>
+  <button class="btn btn-danger" (click)="diviNumbers(ref1.value, ref2.value)">Division</button>
+<div class="text-center display-3">
+Addition:{{sum}}
+</div>
+<div class="text-center display-3">
+  Substraction:{{sub}}
+  </div>
+  <div class="text-center display-3">
+    Multiplication:{{mul}}
+    </div>
+    <div class="text-center display-3">
+      Division:{{divi}}
+      </div>
+
+</div>

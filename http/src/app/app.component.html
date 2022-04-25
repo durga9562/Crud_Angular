@@ -1,0 +1,20 @@
+<div>
+  <table style="width:70%;align-items: center;">
+    <tr>
+      <th>id</th>
+      <th>title</th>
+      <th>author</th>
+      
+    </tr>
+<tbody *ngFor="let d of posts; let i=index">
+  <tr>
+
+    <td>{{d.id}}</td>
+    <td>{{d.title}}</td>
+    <td>{{d.author}}</td>
+    
+  </tr>
+
+</tbody>
+</table>
+</div>

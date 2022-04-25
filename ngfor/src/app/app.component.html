@@ -1,0 +1,15 @@
+<div class="form-group">
+<label for="n">enter the name</label>
+<input type="text" id="n" class="form-control" #ref/>
+<button class="btn btn-danger mt-4"(click)="addName(ref.value)" >addName</button>
+
+
+</div>
+<div>
+
+  <h1 class="text-center text-info">list of names</h1>
+  <hr>
+  <ul *ngFor="let n of names">
+<li>{{n}}</li>
+  </ul>
+</div>

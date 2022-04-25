@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Kumar",
+      "author": "Manager"
+    },
+    {
+      "id": 2,
+      "title": "Amir",
+      "author": "Bussiness Analisit"
+    },{
+      "id": 3,
+      "title": "Mani",
+      "author": "Sr Developer"
+    },{
+      "id": 4,
+      "title": "prasad",
+      "author": "employee"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "mY oJaS InnOvAtIvE TeChNoLoGy"
+  }
+}
